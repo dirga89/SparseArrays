@@ -1,0 +1,5 @@
+I:\Project\HackerRank\OneMonthPreparation\Week01\SparseArrays\obj\Debug\net6.0\SparseArrays.csproj.AssemblyReference.cache
+I:\Project\HackerRank\OneMonthPreparation\Week01\SparseArrays\obj\Debug\net6.0\SparseArrays.GeneratedMSBuildEditorConfig.editorconfig
+I:\Project\HackerRank\OneMonthPreparation\Week01\SparseArrays\obj\Debug\net6.0\SparseArrays.AssemblyInfoInputs.cache
+I:\Project\HackerRank\OneMonthPreparation\Week01\SparseArrays\obj\Debug\net6.0\SparseArrays.AssemblyInfo.cs
+I:\Project\HackerRank\OneMonthPreparation\Week01\SparseArrays\obj\Debug\net6.0\SparseArrays.csproj.CoreCompileInputs.cache

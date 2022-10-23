@@ -26,7 +26,26 @@ class Result
 
     public static List<int> matchingStrings(List<string> strings, List<string> queries)
     {
+        List<int> result = new List<int>();
+        int stringsCount = strings.Count;
+        int queriesCount = queries.Count;
+        int count;
 
+        for(int i=0; i<queriesCount; i++)
+        {
+            count = 0;
+            for(int j=0; j<stringsCount; j++)
+            {
+                if(String.Compare(queries[i], strings[j])==0)
+                {
+                    count++;
+                }
+            }
+
+            result.Add(count);
+        }
+
+        return result;
     }
 
 }
@@ -35,7 +54,7 @@ class Solution
 {
     public static void Main(string[] args)
     {
-        TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+        //TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
         int stringsCount = Convert.ToInt32(Console.ReadLine().Trim());
 
@@ -59,9 +78,9 @@ class Solution
 
         List<int> res = Result.matchingStrings(strings, queries);
 
-        textWriter.WriteLine(String.Join("\n", res));
+        //textWriter.WriteLine(String.Join("\n", res));
 
-        textWriter.Flush();
-        textWriter.Close();
+        //textWriter.Flush();
+        //textWriter.Close();
     }
 }
